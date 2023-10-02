@@ -1,0 +1,64 @@
+
+/* Start Global Rules */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+.container{
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* Small Screen */
+@media (min-width: 768px) {
+  .container{
+      width: 750px;
+  }
+}
+
+/* Mid Screen */
+@media (min-width: 992px) {
+  .container{
+      width: 970px;
+  }
+}
+
+/* Large Screen */
+@media (min-width: 1200px) {
+  .container{
+      width: 1170px;
+  }
+}
+.material-icons-outlined{
+  cursor: default;
+}
+/* End Global Rules */
+.center-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-position{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  /* 
+HTML Main
+<!-- Icons links -->
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+<script src="https://kit.fontawesome.com/d30005137f.js" crossorigin="anonymous"></script>
+<!-- Font Links --> 
+  <!-- ------------ -->
+<link rel="stylesheet" href="style css/all.min.css">
+<link rel="stylesheet" href="style css/Normalize.css">
+<link rel="stylesheet" href="style css/All_css_OMAR.css">
+<link rel="stylesheet" href="style css/main.css">
+  */
+  /* Start Components */

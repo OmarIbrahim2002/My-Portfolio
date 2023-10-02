@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: black;
+    color: white;
+    font-family: 'Noto Serif', 'Roboto', 'Cairo',  serif;
+}
+:root{
+    --mainColor: #3a6cf4;
+    --mainAltColor: #3a6cf4d7;
+    --secColor: #ddd;
+    --grayColor: #888;
+    --transition: 0.4s;
+}
+/* ----------------------------------- */
+.mainHeading{
+    cursor: default;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: bold;
+}
+.mainTitle{
+    margin-bottom: 20px;
+    color: var(--mainColor);
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.mainBtn{
+    padding: 7px 25px;
+    border-radius: 15px;
+    font-size: 12px;
+    background: var(--mainColor);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+/* ------------------------------------- */
+/* -----------Display----------- */
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-align{
+    display: flex;
+    align-items: center;
+}
+/* -----------Display----------- */
+/* -----------Bg && Color----------- */
+.mainBG{background: var(--mainColor);}
+.secBG{background: var(--secColor);}
+.grayBG{background: var(--grayColor);}
+.mainColor{color: var(--mainColor);}
+.mainAltColor{color: var(--mainAltColor);}
+.secColor{color: var(--secColor);}
+.grayColor{color: var(--grayColor);}
+.transition{
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+/* -----------Bg && Color----------- */
+/* -----------Padding && Margin----------- */
+.sectionPadding{
+    padding: 55px 0;
+}
+/* -----------Padding && Margin----------- */
+/* -----------Border----------- */
+.rad-15{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+/* -----------Border----------- */
+/* -----------Shadow----------- */
+.shadow-black{
+    box-shadow: 0 0 10px black;
+}
+.shadow-white{
+    box-shadow: 0 0 5px white;
+}
+/* -----------Shadow----------- */
